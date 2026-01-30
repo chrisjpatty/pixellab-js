@@ -4,6 +4,8 @@
 
 This JavaScript/TypeScript client simplifies interaction with the [Pixel Lab developer API](http://api.pixellab.ai/v1).
 
+This JavaScript SDK is an unofficial port of the [official Python SDK](https://github.com/pixellab-code/pixellab-python) and is not affiliated with PixelLab.
+
 Create characters and items, animate them, and generate rotated views. Useful for game development and other pixel art projects.
 
 For questions or discussions, join us on [Discord](https://discord.gg/pBeyTBF8T7).
@@ -123,3 +125,4 @@ bun test
 - Documentation: [api.pixellab.ai/v1/docs](https://api.pixellab.ai/v1/docs)
 - Discord Community: [Join us](https://discord.gg/pBeyTBF8T7)
 - Issues: Please report any SDK issues on our GitHub repository
+
