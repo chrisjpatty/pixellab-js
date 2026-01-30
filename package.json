@@ -1,0 +1,44 @@
+{
+  "name": "pixellab",
+  "version": "0.0.1",
+  "description": "TypeScript SDK for the Pixel Lab API - generate pixel art with AI",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "pixellab",
+    "pixel-art",
+    "ai",
+    "image-generation",
+    "sprite",
+    "game-dev"
+  ],
+  "author": "Conjure Games",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/conjure-games/pixellab-js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
